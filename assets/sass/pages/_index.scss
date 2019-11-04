@@ -11,7 +11,8 @@ body {
             font-family: $raleway;
             span {
                 color: $white;
-                font-size: x-large;
+                font-size: 30px;
+                font-weight:$bold;
 
             }
         }
@@ -19,24 +20,47 @@ body {
     .section__container-1 {
         background-color: $granite-gray;
         color: $white;
-        font-size: 18px;
         font-family: $raleway;
-        text-align: center;
         padding-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        
         .image-1 {
-            padding: 150px 100px;
+            height: 20px;
+            padding: 20px 20px;
+        }
+        .container__text-customize {
+            text-align: center;
+            padding-top: 80px;
+            color: white;
+            font-size: 7px;
+
         }
     }
     .section__container-2 {
-        color: $granite-gray;
-        font-size: 18px;
         font-family: $raleway;
-        text-align: center;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+
         .image-2 {
-            padding: 120px 100px;
+            height: 20px;
+            padding: 20px 20px;
+
         }
+        .container__text-customize {
+            text-align: center;
+            padding-top: 60px;
+            color:$granite-gray;
+            font-size: 7px;
+        }
+
+
     }
+
+
+
+
     .section__container-3 {
     background-color: $jelly-bean;
     height: 120px;

@@ -45,28 +45,42 @@ body .main__container div {
 }
 body .main__container div span {
   color: #fff;
-  font-size: x-large;
+  font-size: 30px;
+  font-weight: 700;
 }
 body .section__container-1 {
   background-color: #686963;
   color: #fff;
-  font-size: 18px;
   font-family: "Raleway", sans-serif;
-  text-align: center;
   padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
 }
 body .section__container-1 .image-1 {
-  padding: 150px 100px;
+  height: 20px;
+  padding: 20px 20px;
+}
+body .section__container-1 .container__text-customize {
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  font-size: 7px;
 }
 body .section__container-2 {
-  color: #686963;
-  font-size: 18px;
   font-family: "Raleway", sans-serif;
-  text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
 }
 body .section__container-2 .image-2 {
-  padding: 120px 100px;
+  height: 20px;
+  padding: 20px 20px;
+}
+body .section__container-2 .container__text-customize {
+  text-align: center;
+  padding-top: 60px;
+  color: #686963;
+  font-size: 7px;
 }
 body .section__container-3 {
   background-color: #E56353;
