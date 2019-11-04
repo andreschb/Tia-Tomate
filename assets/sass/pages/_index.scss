@@ -1,0 +1,54 @@
+body {
+    .main__container {
+        background-color: $jelly-bean;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+            color: $white;
+            font-size: 18px;
+            font-family: $raleway;
+            span {
+                color: $white;
+                font-size: x-large;
+
+            }
+        }
+    }
+    .section__container-1 {
+        background-color: $granite-gray;
+        color: $white;
+        font-size: 18px;
+        font-family: $raleway;
+        text-align: center;
+        padding-bottom: 15px;
+        .image-1 {
+            padding: 150px 100px;
+        }
+    }
+    .section__container-2 {
+        color: $granite-gray;
+        font-size: 18px;
+        font-family: $raleway;
+        text-align: center;
+        padding-bottom: 20px;
+        .image-2 {
+            padding: 120px 100px;
+        }
+    }
+    .section__container-3 {
+    background-color: $jelly-bean;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: $white;
+        
+        font-size: xx-large;
+        font-family: $raleway;
+        font-weight: $bold;
+    }
+    }
+}

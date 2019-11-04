@@ -1,3 +1,85 @@
+body {
+  margin: 0;
+}
 
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header {
+  height: 30px;
+}
+
+.logo {
+  float: left;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.logo__image {
+  height: 20px;
+}
+
+body .main__container {
+  background-color: #E56353;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main__container div {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+body .main__container div span {
+  color: #fff;
+  font-size: x-large;
+}
+body .section__container-1 {
+  background-color: #686963;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+body .section__container-1 .image-1 {
+  padding: 150px 100px;
+}
+body .section__container-2 {
+  color: #686963;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body .section__container-2 .image-2 {
+  padding: 120px 100px;
+}
+body .section__container-3 {
+  background-color: #E56353;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .section__container-3 span {
+  color: #fff;
+  font-size: xx-large;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=main.css.map */
