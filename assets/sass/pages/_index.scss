@@ -58,21 +58,47 @@ body {
 
     }
 
-
-
-
     .section__container-3 {
     background-color: $jelly-bean;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    span{
+
+        span{
         color: $white;
         
         font-size: xx-large;
         font-family: $raleway;
         font-weight: $bold;
+        }
     }
+
+    .section__container-4{
+        font-family: $raleway;
+        padding-bottom: 15px;
+        justify-content: center;
+        align-items: center;
     }
+    .image-3{
+        text-align: center;
+    }
+
+        .image__imagen-3 {
+            height: 100px;
+            padding-top: 30px;
+            padding-bottom:1px;
+        }
+        span{
+            font-size: 11px;
+        font-family: $raleway;
+        font-weight: $bold;
+        }
+
+        .container__text-customize {
+            text-align: center;
+            padding-top: 4px;
+            color:$granite-gray;
+            font-size: 4px;  
+        }     
 }
