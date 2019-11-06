@@ -30,10 +30,10 @@ body {
             padding: 20px 20px;
         }
         .container__text-customize {
-            text-align: center;
-            padding-top: 80px;
+            text-align: center ;
+            padding-top: 70px ;
             color: white;
-            font-size: 7px;
+            font-size: 5px;
 
         }
     }
@@ -52,42 +52,41 @@ body {
             text-align: center;
             padding-top: 60px;
             color:$granite-gray;
-            font-size: 7px;
+            font-size: 5px;
         }
 
 
     }
 
     .section__container-3 {
-    background-color: $jelly-bean;
+    background-color: $salmon;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-        span{
+        span {
         color: $white;
-        
-        font-size: xx-large;
+        font-size: x-large;
         font-family: $raleway;
         font-weight: $bold;
         }
     }
 
-    .section__container-4{
+    .section__container-4 {
         font-family: $raleway;
         padding-bottom: 15px;
         justify-content: center;
         align-items: center;
-    }
-    .image-3{
+    
+        .image-3 {
         text-align: center;
-    }
-
-        .image__imagen-3 {
+        
+            .image__imagen-3 {
             height: 100px;
             padding-top: 30px;
             padding-bottom:1px;
+            }
         }
         span{
             font-size: 11px;
@@ -101,4 +100,58 @@ body {
             color:$granite-gray;
             font-size: 4px;  
         }     
+    }
+
+     .section__container-5{
+        font-family: $raleway;
+        padding-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+    
+        .image-4 {
+        text-align: center;
+        
+            .image__imagen-4 {
+            height: 100px;
+            padding-top: 0px;
+            padding-bottom:1px;
+            }
+        }
+        span {
+            font-size: 11px;
+        font-family: $raleway;
+        font-weight: $bold;
+        }
+
+        .container__text-customize {
+            text-align: center;
+            padding-top: 4px;
+            color:$granite-gray;
+            font-size: 4px;  
+
+        }
+    }
+    .section__container-6{
+        background-color: $pastel-pink;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        .button__padding{
+            padding-top: 10px;
+        }
+
+    
+        span{
+        
+            color: $white;
+            font-size: 11px;
+            font-family: $raleway;
+            font-weight: $bold;
+        }   
+        
+
+    }
 }
